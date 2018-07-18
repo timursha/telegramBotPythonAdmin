@@ -1,0 +1,44 @@
+{% block content %}
+{% load static %}
+
+<style>
+.form-horizontal{
+  	word-wrap: normal;
+	word-break: normal;
+	width: 300px;
+	font-size: 15px
+
+    }
+.abc{
+    font-size: 15px;
+
+    }
+</style>
+<div class="form-horizontal">
+    <div class="tilt2">
+        <div class="product-item text-center">
+            <div class="">
+                <h4 class="abc">{{ ticket_category.created }} </h4>
+                <a href="{% url 'product' ticket_category.id %}">
+                    <a> {{ ticket_category.url }} </a>
+                </a>
+            </div>
+
+            <hr>
+
+           <p><strong> {{ ticket_category.town }}</strong></p>
+            <p><strong> От: {{ ticket_category.name }} {{ ticket_category.surname }}</strong></p>
+                <p><strong>{{ ticket_category.phone }}</strong></p>
+                   <i>  <p><strong>{{ ticket_category.message }}</strong></p> </i>
+        <form id="id" action="{% url 'product' ticket_category.id %}">
+            <div class="add-to-cart-btn">
+                <button class="btn btn-primary tilt">
+                    Информация
+                </button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

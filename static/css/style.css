@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Didact+Gothic|EB+Garamond|Gabriela|Jura|Lobster|Montserrat|Montserrat+Alternates|Old+Standard+TT|Oswald|Pattaya|Playfair+Display|Playfair+Display+SC|Roboto+Slab');
+
+/*стили для тела шаблонов*/
+body{
+    background-color: rgba(255, 120, 120, 0.24);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Exo 2', sans-serif;
+    /*font-family: 'Marck Script', cursive;*/
+    font-weight: 300;
+    color: #333;
+}
+
+.bg-light{
+    background-color: #c0d6ec!important;
+}
+
+.dropdown-menu{
+    background-color: #c0d6ec!important;
+}
+
+#headerwrap{
+    background: url("../images/l.jpg") no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: right;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    cursor: default;
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

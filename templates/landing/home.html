@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<style>
+.container-1{
+	word-wrap: break-word;
+	word-break: break-all;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-basis: 300px;
+background: #D3D3D3;
+
+}
+.container-1 div{
+    	word-wrap: normal;
+	word-break: normal;
+  padding: 10px;
+
+  max-width: 300px;
+
+
+}
+.box1{
+  flex: 1;
+}
+.box2{
+  flex: 1;
+  max-width: 10px;
+
+
+
+}
+.box3{
+  flex: 1;
+
+
+}
+.caption{
+    text-align: center;
+}
+</style>
+ <div id="headerwrap">
+<div class="container-1">
+      <!--<div class="box-3">-->
+    <!--<h3="caption">ожидающие</h3>-->
+    <!--<p>{% for ticket_category in ticket_categories_3 %}-->
+                                    <!--{% include 'landing/product_item.html' %}-->
+                                <!--{% endfor %}</p>-->
+  <!--</div>-->
+  <div class="box-1">
+    <h3>новые</h3>
+    <p>{% for ticket_category in ticket_categories_1 %}
+                                    {% include 'landing/product_item.html' %}
+                                {% endfor %}</p>
+  </div>
+  <div class="box-2">
+    <h3>в работе</h3>
+    <p>{% for ticket_category in ticket_categories_2 %}
+                                    {% include 'landing/product_item.html' %}
+                                {% endfor %}</p>
+  </div>
+
+   <div class="box-4">
+    <h3>завершенные</h3>
+    <p>{% for ticket_category in ticket_categories_4 %}
+                                    {% include 'landing/product_item.html' %}
+                                {% endfor %}</p>
+</div>
+     </div>
+    </div>
+{% endblock %}

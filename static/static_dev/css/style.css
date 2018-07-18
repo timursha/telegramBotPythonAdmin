@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Didact+Gothic|EB+Garamond|Gabriela|Jura|Lobster|Montserrat|Montserrat+Alternates|Old+Standard+TT|Oswald|Pattaya|Playfair+Display|Playfair+Display+SC|Roboto+Slab');
+
+/*стили для тела шаблонов*/
+body{
+    background-color: rgba(0, 223, 157, 0.2);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border:0;
+    border-top: 1px solid #cc0606;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Exo 2', sans-serif;
+    /*font-family: 'Marck Script', cursive;*/
+    font-weight: 300;
+    color: #333;
+}
+
+.navbar{
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-brand{
+    color: rgba(177, 86, 86, 0.22);
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.bg-light{
+    background-color: #c0d6ec!important;
+}
+
+.dropdown-menu.show{
+    background-color: #c0d6ec!important;
+}
+
+#headerwrap{
+    background: url("../images/l.jpg") no-repeat center top;
+    margin-top: -10px;
+    padding-top: 100px;
+    text-align: right;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    cursor: default;
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Стили секции для продукта*/
+.product-item{
+    position: relative;
+    display: block;
+    padding: 6px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+    border-radius: 10px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.product-item:hover {
+    box-shadow: 5px 5px rgba(219, 219, 219, 0.9);
+}
+
+.product-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height:0;
+}
+
+/*Стили для секции для картинки*/
+.product-image-item{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+}
+
+/*Стили для контейнера-продуктов*/
+.container-product{
+    margin: 100px;
+}
+
+.tilt{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+.tilt:hover{
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2);
+}
+
+#foo{
+    background-color: #c0d6ec!important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#foo a{
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#foo a:hover{
+    color: #ff7878;
+}
+#foo h1{
+    color: white;
+    font-size: 20px;
+}
+#foo p{
+    color: white;
+    font-size: 15px;
+}
+#foo p:hover{
+    color: #ff7878;
+}
+
+#foo label{
+    color: white;
+    font-size: 15px;
+}
+
+#foo label:hover{
+    color: #ff7878;
+}
+
+#foo button:hover{
+    color: #ff7878;
+}

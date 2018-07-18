@@ -33,11 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/templates/landing/landing.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/templates/landing/home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PROCFILE.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PROCFILE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runp-heroku.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -178,6 +182,7 @@
         <option value="$PROJECT_DIR$/Tickets_2/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py" />
+        <option value="$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py" />
       </list>
     </option>
   </component>
@@ -206,38 +211,6 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="products" type="cbb8eebc:String" user="products" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="static" type="cbb8eebc:String" user="static" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-              <item name="landing" type="cbb8eebc:String" user="landing" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="templates" type="cbb8eebc:String" user="templates" />
-              <item name="products" type="cbb8eebc:String" user="products" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
-              <item name="Tickets_2" type="cbb8eebc:String" user="Tickets_2" />
             </path>
           </expand>
           <select />
@@ -435,7 +408,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="db://6a5751b1-c53a-44b2-8f74-da7dcf223a4c/objects/schemas/main/tables/products_ticket" />
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/core/handlers/base.py" />
     <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/landing/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,7 +651,14 @@
     <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>

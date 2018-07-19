@@ -60,16 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PROCFILE.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PROCFILE.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runp-heroku.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/Tickets_2/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="runp-heroku.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -106,18 +111,6 @@
               <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
               <folding>
                 <element signature="e#15#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/products/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,8 +174,8 @@
         <option value="$PROJECT_DIR$/templates/landing/product_item.html" />
         <option value="$PROJECT_DIR$/Tickets_2/settings.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py" />
         <option value="$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py" />
+        <option value="$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py" />
       </list>
     </option>
   </component>
@@ -211,6 +204,16 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
+              <item name="Tickets_2" type="cbb8eebc:String" user="Tickets_2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="telegramBotAdminka" type="cbb8eebc:String" user="telegramBotAdminka" />
+              <item name="venv" type="cbb8eebc:String" user="venv" />
             </path>
           </expand>
           <select />
@@ -408,7 +411,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django/core/handlers/base.py" />
     <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/landing/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -648,17 +650,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/runp-heroku.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/Tickets_2/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>

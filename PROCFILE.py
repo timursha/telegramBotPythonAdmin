@@ -1,1 +1,1 @@
-web: gunicorn 800
+web: gunicorn mysite.wsgi

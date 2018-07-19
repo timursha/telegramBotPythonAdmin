@@ -1,1 +1,1 @@
-web: gunicorn xxx
+web: gunicorn 800

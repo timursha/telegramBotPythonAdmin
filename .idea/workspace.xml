@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -335,7 +335,7 @@
     <frame x="0" y="35" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21212122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21212122" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.503876" side_tool="true" visible="true" weight="0.39106146" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -343,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49612403" visible="true" weight="0.39106146" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49612403" visible="true" weight="0.39106146" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.3993576" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -663,7 +663,7 @@
     <entry file="file://$PROJECT_DIR$/../telegramBotAdminka/PROCFILE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
